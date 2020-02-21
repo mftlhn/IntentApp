@@ -30,15 +30,16 @@
         android:text="@string/dial_number"/>
 
     <Button
-        android:id="@+id/btn_camera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btn_recycler_view"
         android:layout_marginBottom="16dp"
-        android:text="@string/camera"/>
+        android:text="@string/recycler_view"/>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:id="@+id/image_action"/>
+<!--    <Button-->
+<!--        android:id="@+id/btn_camera"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:text="@string/camera"/>-->
 </LinearLayout>

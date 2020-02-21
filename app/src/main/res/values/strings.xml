@@ -30,4 +30,7 @@
     <string name="seller">Dijual oleh</string>
     <string name="name">Narenda Wicaksono</string>
     <string name="buy">Beli</string>
+    <string name="recycler_view">Recycler View</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="detail">Detail</string>
 </resources>
