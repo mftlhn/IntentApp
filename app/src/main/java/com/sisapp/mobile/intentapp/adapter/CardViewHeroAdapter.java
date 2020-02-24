@@ -56,6 +56,13 @@ public class CardViewHeroAdapter extends RecyclerView.Adapter<CardViewHeroAdapte
             }
         });
 
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(holder.itemView.getContext(), "Kamu memilih " + listHero.get(holder.getAdapterPosition()).getName(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 
     @Override
@@ -77,4 +84,5 @@ public class CardViewHeroAdapter extends RecyclerView.Adapter<CardViewHeroAdapte
             btnShare = itemView.findViewById(R.id.btn_set_share);
         }
     }
+
 }
